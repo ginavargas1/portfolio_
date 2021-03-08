@@ -4,9 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style.css">
     <title>Gina Vargas Portfolio</title>
 </head>
@@ -46,7 +53,7 @@
 </div>
 
   <!-- Adding profile pic and about me content -->
-  <div class="container">
+  <section class="container" id="about-me" style=padding:1rem;> 
     <div class="row align-items-end">
       <div class="col-12 col-md-6">
         <img class='img-fluid' src="https://placehold.it/1920x1080" alt="video placeholder" />
@@ -61,11 +68,12 @@
           to be the best of my ability to continue challenging myself to grow in this high-demand industry as a Web Developer.</p>
       </div>
     </div>
-  </div>
+  </section>
   
   <!-- Project links will go here -->
-  <div class="container">
-  <div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="container" id="link-cards">
+   <h2>Projects</h2>
+   <div class="row row-cols-1 row-cols-md-2 g-4">
     <div class="col">
       <div class="card">
         <img src="..." class="card-img-top" alt="...">
@@ -85,14 +93,33 @@
           <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
       </div>
+    </div>
+   </div>
+</div>
+
+<!-- Resume Modal -->
+  <div class="container">
+    <h2>Resume</h2>
+    <div data-target="resume-pdf">
+        <i class="fas fa-file"></i>
+        
     </div>
   </div>
-</div>
+
+
+
   <!-- Need Footer info -->
-  <footer>
-    <button><i class="fab fa-linkedin"></i></i></button>
-    <button><i class="fab fa-github"></i></button>
+  <footer class="container">
+    <h4 class="display-6 text-center">Additional Links</h4>
+    <div id="footer-links">
+      <button data-target="#linkedin-info"><i class="fab fa-linkedin"></i></i></button>
+      <button data-target="#github-info"><i class="fab fa-github"></i></button>
+    </div>
   </footer>
+
+  <div id="linkedin-info">
+    <a href="https://www.linkedin.com/in/ginavargas89/" target="_blank"></a>
+  </div>
 
 </body>
 </html>

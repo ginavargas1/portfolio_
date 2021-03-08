@@ -14,3 +14,12 @@
 .card-img {
     opacity: 0.5;
 }
+
+#link-cards {
+    padding: 1rem;
+}
+
+.footer {
+    padding: 1rem;
+    padding-bottom: 1rem;
+}
