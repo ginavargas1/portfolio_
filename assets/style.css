@@ -15,8 +15,22 @@
     opacity: 0.5;
 }
 
+.img-fluid {
+    width: 35%;
+    border-radius: 8px;
+    height: auto;
+    padding: 1rem 0rem 2rem 0rem;
+    float: right;
+}
+
 #link-cards {
     padding: 1rem;
+}
+
+#footer-links {
+    position: relative;
+    text-align: center;
+    padding-bottom: 1rem;
 }
 
 .footer {
